@@ -1,0 +1,15 @@
+---
+image: node:latest
+
+stages:
+  - justDoIt
+
+LetsDoThis:
+  stage: justDoIt
+  script:
+    - npm i @cloudflare/wrangler
+    - ln -s /builds/rfranzen/teleworker/node_modules/.bin/wrangler .
+    - CF_API_KEY=000000000000000000000000 CF_EMAIL="your@email.com" ./wrangler publish --release
+  only:
+    refs:
+        - master

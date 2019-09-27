@@ -1,0 +1,6 @@
+workers_dev = false
+name = "teleworker_bot"
+type = "webpack"
+zone_id = "cloudflare-zone-id"
+account_id = "cloudflare-account-id"
+route = "https://bot.yourdomain.com"
