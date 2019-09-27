@@ -10,4 +10,4 @@ To be clear, I'm not a programmer, so don't expect a beautiful code or the best 
 # Contributing
 Do you like that idea? Want to help to turn into something bigger? Please feel free to contact me and let's discuss about that.
 
-t.me/rfranzen
+[t.me/rfranzen](https://t.me/rfranzen)
