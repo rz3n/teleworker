@@ -1,5 +1,4 @@
-import webhook from './src/handlers/webhook'
-import telegramBot from './src/handlers/telegramBot'
+import teleWorker from './src/handlers/teleWorker'
 import Router from './router'
 
 addEventListener('fetch', event => {
@@ -10,7 +9,7 @@ async function handleRequest(request) {
 
   const r = new Router()
 
-  r.post('/telebot', telegramBot)
+  r.post('/teleworker', teleWorker)
 
   let response = await r.route(request)
 
